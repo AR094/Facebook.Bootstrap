@@ -1,0 +1,89 @@
+
+.form-control{
+    border-radius: 100px;
+}
+.me-2{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    height: 45px;
+}
+.col-8 .form-floating ::placeholder{
+    padding-left: 20px;
+}
+.rounded{
+    background-color: rgb(76, 111, 142);
+}
+.nav-link{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.disabled{
+    color: #edebeb;
+    font-size: 20px;
+    font-weight: 700;
+}
+.home:hover{
+    background-color: rgb(216, 220, 225);
+    height: 44px;
+    width: 44px;
+    border-radius: 10px;
+    color: #2727de;    
+}
+.home{
+    position: relative;
+}
+.home::after{
+    content: '';
+    background-color: blue;
+    border-radius: 100px;
+    height: 5px;
+    width: 0;
+    position: absolute;
+    display: flex;
+    top: 45px;
+    transition: 100ms;
+}
+.home:hover::after{  
+    width: 100%;
+}
+  .card-text{
+    margin-left: 20px;
+    font-weight: 600;
+  }
+.plus{
+    width: 48px;
+    height: 44px;
+    margin-left: 62px;
+    margin-top: -25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.card{
+    overflow: hidden;
+}
+.reels-link{
+    text-decoration: none;
+    
+}
+.card-img{
+    position: relative;
+    height: 290px;
+}
+.card-body-2{
+    position: absolute;
+    color: #f8f4f4;
+    top: 190px;
+}
+.card-profile{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 6px solid rgb(0, 82, 234);
+}
